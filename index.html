@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jual Sayuran | Petani Indonesia</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!--  animasi loding -->
+    <!-- <div id="preloder">
+        <div class="loader"></div>
+    </div>
+ -->
+    <!-- burger kiri -->
+    <div class="humberger__menu__overlay"></div>
+    <div class="humberger__menu__wrapper">
+        <div class="humberger__menu__logo">
+            <a href="#"><img src="" alt="Jual Sayur / logo"></a>
+        </div>
+
+        <!-- barang seng di tuku + gae duekk e user lek onok -->
+        <div class="humberger__menu__cart">
+            <ul>
+                <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                <li><a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+            </ul>
+            <div class="header__cart__price">Uang : <span>Rp.150.000,00</span></div>
+        </div>
+        <!-- akhir duek -->
+
+        <!-- btn login pengguna -->
+        <div class="humberger__menu__widget">
+            <div class="header__top__right__auth">
+                <a href="#"><i class="fa fa-user"></i> Login</a>
+            </div>
+        </div>
+        <!-- akhir login -->
+
+        <!-- navbbar tampilan hp lk gk perlu hapus -->
+        <nav class="humberger__menu__nav mobile-menu">
+            <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./shop-grid.html">Toko</a></li>
+                <li><a href="#">Halaman</a>
+                    <ul class="header__menu__dropdown">
+                        <li><a href="./shop-details.html">detail barang</a></li>
+                        <li><a href="./shoping-cart.html">barang seng di tuku</a></li>
+                        <li><a href="./checkout.html">Pembayaran & alamat Pengiriman</a></li>
+                        <li><a href="./blog-details.html">Tentang Barang / deskripsi produk</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html">Berita berita tentang barang</a></li>
+                <li><a href="./contact.html">kontak/ hubungi</a></li>
+            </ul>
+        </nav>
+        <!-- akhir navbar hp -->
+
+        <div id="mobile-menu-wrap"></div><!-- iki gae nyampingno tampilan lk ndk mobile -->
+        <!-- sosmed tampilan hp -->
+        <div class="header__top__right__social">
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        </div>
+        <!-- sosmed -->
+        <!-- kontak -->
+        <div class="humberger__menu__contact">
+            <ul>
+                <li><i class="fa fa-envelope"></i>email mu .com</li>
+                <li>Kecepatan Pengiriman Exspress</li>
+            </ul>
+        </div>
+    </div>
+    <!-- burger kiri akir -->
+
+    <!-- tampilan pc/ laptop -->
+    <header class="header">
+        <!-- head abu abu dukur -->
+        <div class="header__top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__left">
+                            <ul>
+                                <li><i class="fa fa-envelope"></i>email mu .com</li>
+                                <li>Kecepatan Pengiriman Exspress</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="header__top__right">
+                            <!-- sosmed -->
+                            <div class="header__top__right__social">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                            <!-- sosmed -->
+                            <!-- login -->
+                            <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i> Login</a>
+                            </div>
+                            <!-- login -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- akhir head abu abu -->
+        <!-- header logo cart dll -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="" alt="Jual Sayur / Logo"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li><a href="./shop-grid.html">Toko</a></li>
+                            <!-- <li><a href="#">Halaman</a>
+                                <ul class="header__menu__dropdown">
+                                    <li><a href="./shop-details.html">Shop Details</a></li>
+                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
+                                    <li><a href="./checkout.html">Check Out</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li> -->
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-lg-3">
+                    <!-- barang seng dituku + duek e user -->
+                    <div class="header__cart">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                            <li><a href="./shoping-cart.html"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                        </ul>
+                        <div class="header__cart__price">Uang : <span>Rp.150.000,00</span></div>
+                    </div>
+                    <!-- akhir -->
+                </div>
+            </div>
+            <div class="humberger__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- akir header logo dll -->
+
+    <!-- button pilihan gae tampilan hp dan pc-->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="hero__categories">
+                        <div class="hero__categories__all">
+                            <i class="fa fa-bars"></i>
+                            <span>Semua Kategori</span>
+                        </div>
+                        <ul>
+                            <li><a href="#">sayur</a></li>
+                            <li><a href="#">Bunga Kol</a></li>
+                            <li><a href="#">Sawi</a></li>
+                            <li><a href="#">Kentang</a></li>
+                            <li><a href="#">Bawang merah</a></li>
+                            <li><a href="#">Bawang Putih</a></li>
+                            <li><a href="#">Cabe rawit</a></li>
+                            <li><a href="#">Cabe Merah</a></li>
+                            <li><a href="#">Seledri</a></li>
+                            <li><a href="#">Kacang Panjang</a></li>
+                            <li><a href="#">Timun</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="hero__search">
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <div class="hero__search__categories">
+                                    Semua Kategori
+                                    <span class="arrow_carrot-down"></span>
+                                </div>
+                                <input type="text" placeholder="Apa yang sedang kamu cari?">
+                                <button type="submit" class="site-btn">Cari</button>
+                            </form>
+                        </div>
+                        <!-- kontak  -->
+                        <div class="hero__search__phone">
+                            <div class="hero__search__phone__icon">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="hero__search__phone__text">
+                                <h5>081234567890</h5>
+                                <span>Dukungan 1x24 JAM</span>
+                            </div>
+                        </div>
+                        <!-- akhir kontak -->
+                    </div>
+                    <!-- baner 1 + kata kata mutiara -->
+                    <div class="hero__item set-bg" data-setbg="img/hero/banner.jpg">
+                        <div class="hero__text">
+                            <span>SAYURAN SEGAR</span>
+                            <h2>Sayur Sayuran<br />100% dari Perkebunan</h2>
+                            <p>Gratis Ambil Dan Siap Antar Ke Rumah</p>
+                            <a href="#" class="primary-btn">BELI SEKARANG</a>
+                        </div>
+                    </div>
+                    <!-- baner -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- akhir menu -->
+
+    <!-- kategori slider gambar + nama barang + link halaman -->
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-1.jpg">
+                            <h5><a href="#">Buah Segar</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-2.jpg">
+                            <h5><a href="#">Minuman Segar</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-3.jpg">
+                            <h5><a href="#">Sayur Sayuran</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-4.jpg">
+                            <h5><a href="#">Minuman Buah</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="img/categories/cat-5.jpg">
+                            <h5><a href="#">Daging Segar</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- akhir kategori slider gambar + nama barang + link halaman -->
+
+    <!-- barang barang seng di jual atau produk mu -->
+    <section class="featured spad">
+        <div class="container">
+            <!-- kategori tengah -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Produk Yang Dijual</h2>
+                    </div>
+                    <div class="featured__controls">
+                        <ul>
+                            <!-- gae fitur iki onok ndk div card  -->
+                            <li class="active" data-filter="*">Semua</li>
+                            <li data-filter=".oranges">Buah-Buahan</li>
+                            <li data-filter=".fresh-meat">Daging Segar</li>
+                            <li data-filter=".vegetables">Sayur Sayuran</li>
+                            <li data-filter=".fastfood">Bumbu Dapur</li>
+                            <!-- gae fitur iki onok ndk div card  -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <!-- card -->
+            <div class="row featured__filter">
+                <!-- card siji -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Daging Sapi</a></h6>
+                            <h5>Rp. 120.000,00</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- card loro -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-2.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Buah Gedang</a></h6>
+                            <h5>Rp. 15.000,00</h5>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+
+                <!-- card telu -->
+                <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Jambu Alas</a></h6>
+                            <h5>Rp. 14.000,00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Semongko</a></h6>
+                            <h5>Rp. 8.000,00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Blubery</a></h6>
+                            <h5>Rp. 25.000,00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Roti</a></h6>
+                            <h5>Rp. 2000,00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-7.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Mangga</a></h6>
+                            <h5>Rp. 16.000,00</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+                    <div class="featured__item">
+                        <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
+                            <!-- tombol gae nambah nang tas / keinginan -->
+                            <ul class="featured__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                            <!--  -->
+                        </div>
+                        <div class="featured__item__text">
+                            <h6><a href="#">Apel</a></h6>
+                            <h5>Rp. 19.000,00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- card-->
+
+    <!-- Banner Begin -->
+    <div class="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner__pic">
+                        <img src="img/banner/banner-2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+
+    <!-- Latest Product Section Begin -->
+    <section class="latest-product spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest-product__text">
+                        <h4>Produk Lama</h4>
+                        <div class="latest-product__slider owl-carousel">
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Ikan Tuna</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>ayam bakar</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Tuna Kaleng</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Sosis Ayam</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Kecap Bango</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Ayam</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest-product__text">
+                        <h4>Paling Dicari</h4>
+                        <div class="latest-product__slider owl-carousel">
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Daging Sapi</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Kepiting</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Sayur Sop</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Brokoli</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Ikan Tongkol</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Jamur Tiram</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="latest-product__text">
+                        <h4>Penilalian Produk</h4>
+                        <div class="latest-product__slider owl-carousel">
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>daging ayam</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>daging sapi</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>tahu coklat</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="latest-prdouct__slider__item">
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-1.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>jamur Tiram</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-2.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>bawang merah</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="latest-product__item">
+                                    <div class="latest-product__item__pic">
+                                        <img src="img/latest-product/lp-3.jpg" alt="">
+                                    </div>
+                                    <div class="latest-product__item__text">
+                                        <h6>Seledri</h6>
+                                        <span>Rp. 500.000,00</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Product Section End -->
+
+    <!-- Blog Section Begin -->
+    <section class="from-blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title from-blog__title">
+                        <h2>Blog Kami</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-1.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i>Agustus 15,2022</li>
+                                <li><i class="fa fa-comment-o"></i> 100</li>
+                            </ul>
+                            <h5><a href="#">Promo Diskon Spesial Hut RI ke-77</a></h5>
+                            <p>Promo untuk semua kategori. diskon hingga 77% S&K berlaku</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-2.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> Juli 11,2022</li>
+                                <li><i class="fa fa-comment-o"></i> 50</li>
+                            </ul>
+                            <h5><a href="#">Nikmati Diskon 2% Hingga Rp 30.000 </a></h5>
+                            <p>Diskon berlaku dengan pemebelian minimal 30.000 dan untuk 1 kali transaksi per perngguna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="blog__item">
+                        <div class="blog__item__pic">
+                            <img src="img/blog/blog-3.jpg" alt="">
+                        </div>
+                        <div class="blog__item__text">
+                            <ul>
+                                <li><i class="fa fa-calendar-o"></i> Juni 30,2022</li>
+                                <li><i class="fa fa-comment-o"></i> 500</li>
+                            </ul>
+                            <h5><a href="#">Spesial diskon hingga 80%</a></h5>
+                            <p>diskon 80% hingga Rp 50.000 dengan pembelian minimal Rp 200.000 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Footer -->
+    <footer class="footer spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="" alt="Jual Sayur"></a>
+                        </div>
+                        <ul>
+                            <li>Alamat: Blau</li>
+                            <li>Wa: 081234567890</li>
+                            <li>Email: sepertiitu@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+                    <div class="footer__widget">
+                        <h6>Halaman Lain</h6>
+                        <ul>
+                            <li><a href="#">Tentang kami</a></li>
+                            <li><a href="#">Tentang Toko Kami</a></li>
+                            <li><a href="#">Kemanan Pembelian</a></li>
+                            <li><a href="#">Informasi Pengiriman</a></li>
+                            <li><a href="#">Privasi</a></li>
+                            <li><a href="#">Maps</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Tentang Kami</a></li>
+                            <li><a href="#">Pelayanan Kami</a></li>
+                            <li><a href="#">Projek</a></li>
+                            <li><a href="#">Kontak</a></li>
+                            <li><a href="#">Inovasi</a></li>
+                            <li><a href="#">Testimoni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="footer__widget">
+                        <h6>Ikuti Berita Kami</h6>
+                        <p> dapatkan Update dari Email Untuk Status Pembelian dan Diskon Spesial.</p>
+                        <form action="#">
+                            <input type="text" placeholder="Masukkan Email Anda">
+                            <button type="submit" class="site-btn">Subscribe</button>
+                        </form>
+                        <div class="footer__widget__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text"><p>
+                          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+                        </div>
+                        <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
